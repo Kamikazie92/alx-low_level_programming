@@ -4,20 +4,19 @@
  *main - print 0-9 separated with commas, using putchar
  *Return: Always 0 (Success)
 */
- int main(void)
+int main(void)
 {
-	int n = '0';
+	int digit;
 
-	while (n <= '9')
+	for (digit = '0'; digit <= '9'; digit++)
 	{
-		putchar(n);
-		if (n != '9')
-		{
-			putchar(',');
-			putchar(' ');
-		}
-		n++;
+		putchar(digit);
+		if (digit == '9')
+			continue;
+
+		putchar(',');
+		putchar(' ');
 	}
 	putchar('\n');
-
 	return (0);
+}
