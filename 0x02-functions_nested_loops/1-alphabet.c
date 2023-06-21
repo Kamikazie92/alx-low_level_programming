@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * print_alphabet - Entry point
- * Description: a function that prints the alphabet,
- * in lowecase followed by a new line
- * Return: void
+ * print_alphabet - utilizes on the _putchar function to print
+ *                  the alphabet a - z
  */
+
 void print_alphabet(void)
 {
 	int ch;
