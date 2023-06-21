@@ -1,13 +1,20 @@
 #include "main.h"
 
 /**
- * print_alphabet - utilizes on the _putchar function to print the alphabet a - z
+ * print_alphabet - Entry point
+ * Return:0
  */
+
 void print_alphabet(void)
 {
-	int ch;
+	char c = 'a';
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-	            _putchar(ch);
+	while (c <= 'z')
+	{
+		_putchar(c);
+		c++;
+
+	}
 	_putchar('\n');
+
 }
