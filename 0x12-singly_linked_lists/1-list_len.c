@@ -3,6 +3,9 @@
 * Auth: Zakaria Lahm
 */
 
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
 #include "lists.h"
 
 /**
