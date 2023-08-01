@@ -1,7 +1,3 @@
-/*
- * File: 101-hello_holberton.asm
- * Auth: Zakaria Lahm
- */
 
 extern printf
 
